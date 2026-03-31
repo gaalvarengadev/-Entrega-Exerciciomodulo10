@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:'Dosis';
+    background:#d3d3d3 ;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+form {
+
+    background: #ffff;
+    width: 100%;
+    height: 740px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#valor {
+
+    padding: 5px;
+    background: #d3d3d3;
+    border: 0px;
+    
+}
+
+#conteudo-main {
+
+  
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: #d3d3d3
+}
+
+
+.saida {
+
+
+border-radius: 10px;
+background: #fff;
+font-weight: bold;
+text-align: left;
+font-size: 20px;
+padding: 3px;
+}
+
+select {
+
+    background: #d3d3d3;
+}

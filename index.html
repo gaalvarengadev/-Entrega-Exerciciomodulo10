@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/js/app.js" defer></script>
-    <script src="/js/classes.js" defer></script>
-    <script src="/js/utils.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Módulo 10</title>
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/js/app.js" type="module" defer></script>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!--header-->
-    <header>
-
-    </header>
-    <!--main-->
     <main>
-
+        <h1>Controle de Gastos</h1> <!--Titulo-->
+        <form>  <!--Inicio formulario-->
+            <div id="campos">
+            <input id="valor" type="number" name="valor" placeholder="Digite o valor do gasto">
+            <br>
+            <br>
+            <select name="categoria">
+                <option>Alimentação</option>
+                <option>Transporte</option>
+                <option>Lazer</option>
+                <option>Outros</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Adicionar</button>
+            <br>
+            <br>
+            </div>
+            <div id="conteudo-main"> 
+                <!--Elemento presentes no OutPut-->
+                <p id="Alimentação" class="saida">Alimentação: R$ 0,00</p>
+                <br>
+                <p id="Transporte" class="saida">Transportes: R$ 0,00</p>
+                <br>
+                <p id="Lazer" class="saida">Lazer:  R$ 0,00</p>
+                <br>
+                <p id="Outros" class="saida">Outros: R$ 0,00</p>
+                <br>
+                <p id="Total" class="saida">Total: R$ 0,00</p>
+            </div>
+        </form>
+   
+      
     </main>
-    <!--footer-->
-    <footer>
-
-    </footer>
 </body>
-
 </html>
